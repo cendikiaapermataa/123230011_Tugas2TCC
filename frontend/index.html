@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Notes App - Tugas 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📝 My Notes</h1>
+            <p>Kelola catatan harianmu dengan mudah
+                Cendikia Permata Dewanti
+                123230011 / IF-F</p>
+
+        </header>
+
+        <section class="note-form">
+            <input type="hidden" id="noteId">
+            <input type="text" id="judul" placeholder="Judul Catatan..." required>
+            <textarea id="isi" rows="4" placeholder="Tulis sesuatu di sini..." required></textarea>
+            <button id="btnSimpan" onclick="saveNote()">Simpan Catatan</button>
+            <button id="btnBatal" onclick="resetForm()" style="display:none; background-color: #6c757d;">Batal</button>
+        </section>
+
+        <hr>
+
+        <section id="notesList" class="notes-container">
+            <p style="text-align: center; color: #888;">Memuat catatan...</p>
+        </section>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
