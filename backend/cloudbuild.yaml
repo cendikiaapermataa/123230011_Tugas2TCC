@@ -26,7 +26,7 @@ steps:
   # "--port 5000": Mengatur port yang akan digunakan (disamakan dengan port yg di-listen oleh server)
   # "--region us-central1": Memilih us-central1 sebagai region yg akan digunakan pada cloud run
   # "--allow-unauthenticated": Agar BE dapat diakses di mana saja tanpa memerlukan autentikasi
-  - - name: "gcr.io/cloud-builders/gcloud"
+  - name: "gcr.io/cloud-builders/gcloud"
     args:
       [
         "run",
