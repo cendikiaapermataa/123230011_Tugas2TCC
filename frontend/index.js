@@ -1,4 +1,4 @@
-const ipAddress = '35.192.169.158'; 
+const ipAddress = '34.172.113.167'; 
 const port = prompt("Masukkan Port Backend (Contoh: 3000):", "3000"); 
 const API_URL = `http://${ipAddress}:${port}/api/notes`; 
 
