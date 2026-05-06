@@ -1,5 +1,5 @@
 runtime: nodejs20
-service: default
+service: 011
 
 # Pengaturan hemat resource (Sangat bagus!)
 automatic_scaling:
