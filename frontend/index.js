@@ -1,6 +1,7 @@
-const ipAddress = '34.172.113.167'; 
-const port = prompt("Masukkan Port Backend (Contoh: 3000):", "3000"); 
-const API_URL = `http://${ipAddress}:${port}/api/notes`; 
+//const ipAddress = '34.172.113.167'; 
+//const port = prompt("Masukkan Port Backend (Contoh: 3000):", "3000"); 
+//const API_URL = `http://${ipAddress}:${port}/api/notes`; 
+const API_URL = 'https://be-rest-011-1079290367613.us-central1.run.app/api/notes';
 
 let allNotes = []; 
 
